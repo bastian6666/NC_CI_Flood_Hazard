@@ -10,7 +10,7 @@ def load_html(file_path):
     return html_content
 
 # Set up the page title
-st.title('Interactive Maps and Charts')
+st.title('Flood Risk Assessment for Critical Infrastructure Using DEM and Landsat Data in North Carolina')
 
 # Directory containing your HTML files for maps
 map_directory = '.'
@@ -40,3 +40,4 @@ with col1:
 
 with col2:
     components.html(chart_html, height=600, scrolling=True)
+    st.markdown("Results obtained based on [ASTER DEM](https://lpdaac.usgs.gov/products/astgtmv003/), [FEMA data](https://www.fema.gov/data), [Open Street Map](https://www.openstreetmap.org/), and [Landsat Data](https://www.usgs.gov/land-resources/nli/landsat).")
