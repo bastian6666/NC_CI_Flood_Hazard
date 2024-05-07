@@ -10,7 +10,7 @@ def load_html(file_path):
     return html_content
 
 # Set up the page title
-st.title('Flood Risk Assessment for Critical Infrastructure Using DEM and Landsat Data in North Carolina')
+st.title('Flood Risk Assessment for Critical Infrastructure in Carteret County, NC')
 
 # Directory containing your HTML files for maps
 map_directory = '.'
