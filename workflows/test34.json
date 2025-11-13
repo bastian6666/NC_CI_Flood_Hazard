@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "position": {
+        "x": -112.14285714285722,
+        "y": 16.27551020408157
+      },
+      "label": "hello (n1)",
+      "type": "hello",
+      "args": {
+        "name": "world"
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 230.22647142085077,
+        "y": 337.03817844918535
+      },
+      "label": "sum (n2)",
+      "type": "sum",
+      "args": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 640,
+        "y": 140
+      },
+      "label": "custom.node34 (n3)",
+      "type": "custom.node34",
+      "args": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "n1",
+      "target": "n2"
+    },
+    {
+      "id": "e2",
+      "source": "n2",
+      "target": "n3"
+    }
+  ]
+}
